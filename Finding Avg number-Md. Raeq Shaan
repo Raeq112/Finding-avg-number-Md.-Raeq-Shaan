@@ -1,0 +1,7 @@
+num=int(input("how many numbers? "))
+sum=0
+for n in range(num):
+    numbers=float(input("Enter any number "))
+    sum+=numbers
+avg=sum/num
+print("Average is:",avg)
